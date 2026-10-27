@@ -19,4 +19,6 @@ Para manter o projeto leve, didático e fiel ao que é ensinado, utilizamos a tr
 * **CSS3:** Estilização moderna e responsividade (Mobile-First).
 * **JavaScript (Vanilla):** Dinamismo e interações da interface.
 
+Desenvolvido por vitoriovitorhugo
+
 ---
