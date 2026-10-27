@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bases da Programação Web</title>
+    <!-- Link para o CSS externo conforme a estrutura do README -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Cabeçalho Principal -->
+    <header class="main-header">
+        <div class="container">
+            <h1>🌐 Bases da Programação Web</h1>
+            <p>Aprenda os pilares do desenvolvimento front-end de forma simples e prática.</p>
+        </div>
+    </header>
+
+    <!-- Navegação Rápida -->
+    <nav class="main-nav">
+        <div class="container">
+            <ul>
+                <li><a href="#html-section">HTML5</a></li>
+                <li><a href="#css-section">CSS3</a></li>
+                <li><a href="#js-section">JavaScript</a></li>
+                <li><a href="#quiz-section">Quiz</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Conteúdo Principal -->
+    <main class="container">
+
+        <!-- Seção: HTML5 -->
+        <section id="html-section" class="card">
+            <h2>🧱 HTML5: A Estrutura</h2>
+            <p>O <strong>HTML (HyperText Markup Language)</strong> é o esqueleto de qualquer página web. Ele utiliza tags para definir onde ficam os textos, imagens, links e botões.</p>
+            
+            <!-- Snippet Viewer (Demonstração do README) -->
+            <div class="snippet-viewer">
+                <h3>Exemplo de Código:</h3>
+                <pre><code>&lt;button&gt;Clique Aqui&lt;/button&gt;</code></pre>
+                <div class="snippet-preview">
+                    <span>Resultado visual:</span>
+                    <button>Clique Aqui</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção: CSS3 -->
+        <section id="css-section" class="card">
+            <h2>🎨 CSS3: O Estilo</h2>
+            <p>O <strong>CSS (Cascading Style Sheets)</strong> é responsável pela identidade visual. É com ele que adicionamos cores, definimos fontes, alinhamos elementos e criamos layouts responsivos.</p>
+            
+            <div class="snippet-viewer">
+                <h3>Exemplo de Código:</h3>
+                <pre><code>button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}</code></pre>
+                <div class="snippet-preview">
+                    <span>Resultado visual:</span>
+                    <button style="background-color: #007BFF; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">Botão Estilizado</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção: JavaScript -->
+        <section id="js-section" class="card">
+            <h2>⚡ JavaScript: A Interatividade</h2>
+            <p>O <strong>JavaScript</strong> é a linguagem de programação que dá vida ao site. Com ele, você pode criar comportamentos dinâmicos, como reagir a cliques, validar formulários e processar dados.</p>
+            
+            <div class="snippet-viewer">
+                <h3>Exemplo de Código:</h3>
+                <pre><code>button.addEventListener('click', () => {
+    alert('Olá, Mundo!');
+});</code></pre>
+            </div>
+        </section>
+
+        <!-- Seção: Quiz Interativo -->
+        <section id="quiz-section" class="card quiz-card">
+            <h2>🧠 Teste seus Conhecimentos</h2>
+            <p>Responda à pergunta abaixo para validar o que você aprendeu!</p>
+            
+            <div id="quiz-container">
+                <p class="question"><strong>Qual tecnologia é responsável por definir a estrutura e o conteúdo de uma página web?</strong></p>
+                <form id="quiz-form">
+                    <label class="option">
+                        <input type="radio" name="answer" value="css"> CSS3
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="answer" value="html"> HTML5
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="answer" value="js"> JavaScript
+                    </label>
+                    <button type="button" id="submit-quiz-btn">Enviar Resposta</button>
+                </form>
+                <div id="quiz-result"></div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="main-footer">
+        <div class="container">
+            <p>Desenvolvido para o projeto Bases da Programação Web.</p>
+        </div>
+    </footer>
+
+    <!-- Link para o JS externo conforme a estrutura do README -->
+    <script src="js/main.js"></script>
+</body>
+</html>
